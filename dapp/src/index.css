@@ -1,0 +1,317 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    height: 100%;
+    scrollbar-width: none;
+  }
+  
+  html::-webkit-scrollbar {
+    display: none;
+  }
+  
+  body {
+    height: 100vh;
+    padding-top: 5rem;
+    background: #161E2D;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    padding-top: 3%;
+  }
+
+  body::-webkit-scrollbar {
+    display: none;
+  }
+
+  @media (max-width: 640px) {
+    body {
+      padding-top: 4rem;
+      height: 100vh;
+      position: absolute;
+      right: 10;
+      padding-right: 1%;
+      overflow-y: scroll;
+      scrollbar-width: none;
+    }
+  }
+}
+
+@layer components {
+  .btn-primary {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    color: white;
+    border-radius: 0.5rem;
+    font-weight: 600;
+    position: relative;
+    background-color: rgb(37, 99, 235);
+    transition-property: all;
+    transition-duration: 200ms;
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  }
+
+  .btn-primary:hover {
+    background-color: rgb(59, 130, 246);
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+  }
+
+  .btn-primary:active {
+    background-color: rgb(29, 78, 216);
+    transform: translateY(1px);
+  }
+
+  .card {
+    border-radius: 0.75rem;
+    padding: 1.5rem;
+    transition-property: all;
+    transition-duration: 300ms;
+    position: relative;
+    overflow: hidden;
+    background-color: white;
+    border: 1px solid rgba(226, 232, 240, 1);
+    box-shadow: 
+      0 4px 6px -1px rgba(0, 0, 0, 0.1),
+      0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  }
+
+  .card:hover {
+    box-shadow: 
+      0 10px 15px -3px rgba(0, 0, 0, 0.1),
+      0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    border: 1px solid rgba(59, 130, 246, 0.3);
+  }
+
+  .input {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    background-color: white;
+    border: 1px solid rgb(229, 231, 235);
+    border-radius: 0.5rem;
+    color: rgb(17, 24, 39);
+    transition-property: all;
+    transition-duration: 200ms;
+  }
+
+  .input::placeholder {
+    color: rgb(156, 163, 175);
+  }
+
+  .input:focus {
+    outline: none;
+    border-color: rgb(59, 130, 246);
+    
+  }
+
+  .input:hover {
+    border-color: rgb(209, 213, 219);
+  }
+
+  .hero-title {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    font-weight: 700;
+    color: rgb(17, 24, 39);
+    margin-bottom: 1.5rem;
+    background: linear-gradient(120deg, #1e293b, #3b82f6);
+    background-size: 200% auto;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 3s linear infinite;
+  }
+
+  /* Responsive Typography */
+  @media (min-width: 375px) {
+    .hero-title {
+      font-size: 2.5rem;
+      line-height: 1.2;
+    }
+  }
+
+  @media (min-width: 640px) {
+    .hero-title {
+      font-size: 3rem;
+      line-height: 1;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .hero-title {
+      font-size: 3.75rem;
+      line-height: 1;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .hero-title {
+      font-size: 4rem;
+      line-height: 1;
+    }
+  }
+
+  @media (min-width: 1280px) {
+    .hero-title {
+      font-size: 4.5rem;
+      line-height: 1;
+    }
+  }
+
+  @keyframes shine {
+    to {
+      background-position: 200% center;
+    }
+  }
+
+  .stat-card {
+    padding: 1.25rem;
+    border-radius: 0.75rem;
+    transition-property: all;
+    transition-duration: 300ms;
+    position: relative;
+    overflow: hidden;
+    background-color: white;
+    border: 1px solid rgba(226, 232, 240, 1);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+
+  .stat-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    border-color: rgba(59, 130, 246, 0.3);
+  }
+
+  .progress-bar {
+    width: 100%;
+    height: 0.75rem;
+    background-color: rgb(243, 244, 246);
+    border-radius: 9999px;
+    overflow: hidden;
+  }
+
+  .progress-bar-fill {
+    height: 100%;
+    border-radius: 9999px;
+    position: relative;
+    background: linear-gradient(90deg, #3b82f6, #6366f1);
+  }
+
+  .stat-value {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    font-weight: 700;
+    margin-bottom: 0.25rem;
+    color: rgb(17, 24, 39);
+  }
+
+  .text-gradient {
+    color: transparent;
+    background-clip: text;
+    font-weight: 700;
+    background: linear-gradient(135deg, #3b82f6, #6366f1);
+  }
+}
+
+/* Stili per i testi */
+h1, h2, h3, h4, h5, h6 {
+  color: rgb(17, 24, 39);
+  font-weight: 700;
+}
+
+p {
+  color: rgb(75, 85, 99);
+}
+
+/* Stili per i link */
+a {
+  color: rgb(37, 99, 235);
+  transition-property: color;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+a:hover {
+  color: rgb(29, 78, 216);
+}
+
+/* Stili per i messaggi di stato */
+.status-message {
+  padding: 1rem;
+  border-radius: 0.75rem;
+  border-width: 1px;
+}
+
+.status-message.success {
+  background-color: rgb(240, 253, 244);
+  border-color: rgb(187, 247, 208);
+  color: rgb(21, 128, 61);
+}
+
+.status-message.warning {
+  background-color: rgb(254, 252, 232);
+  border-color: rgb(254, 240, 138);
+  color: rgb(161, 98, 7);
+}
+
+.status-message.error {
+  background-color: rgb(254, 242, 242);
+  border-color: rgb(254, 202, 202);
+  color: rgb(185, 28, 28);
+}
+
+/* Effetti hover per le card */
+.hover-lift {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.hover-lift:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+/* Stili per la navbar */
+.nav-link {
+  color: rgb(55, 65, 81);
+  font-weight: 500;
+  transition-property: color;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 200ms;
+}
+
+.nav-link:hover {
+  color: rgb(37, 99, 235);
+}
+
+/* Stili per il footer */
+.footer-link {
+  color: rgb(75, 85, 99);
+  transition-property: color;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 200ms;
+}
+
+.footer-link:hover {
+  color: rgb(37, 99, 235);
+}
+
+/* Stili per i social icons */
+.social-icon {
+  width: 2.5rem;
+  height: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9999px;
+  border-width: 1px;
+  border-color: rgb(229, 231, 235);
+  color: rgb(75, 85, 99);
+  transition-property: all;
+  transition-duration: 200ms;
+}
+
+.social-icon:hover {
+  color: rgb(37, 99, 235);
+  border-color: rgb(37, 99, 235);
+}

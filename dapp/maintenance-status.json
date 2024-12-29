@@ -1,0 +1,32 @@
+{
+  "presale": {
+    "active": false,
+    "message": "",
+    "startTime": null,
+    "estimatedCompletion": null
+  },
+  "staking": {
+    "active": false,
+    "message": "",
+    "startTime": null,
+    "estimatedCompletion": null
+  },
+  "airdrop": {
+    "active": false,
+    "message": "",
+    "startTime": null,
+    "estimatedCompletion": null
+  },
+  "dao": {
+    "active": true,
+    "message": "",
+    "startTime": "2024-12-29T21:10:00.068Z",
+    "estimatedCompletion": null
+  },
+  "swap": {
+    "active": false,
+    "message": "",
+    "startTime": null,
+    "estimatedCompletion": null
+  }
+}

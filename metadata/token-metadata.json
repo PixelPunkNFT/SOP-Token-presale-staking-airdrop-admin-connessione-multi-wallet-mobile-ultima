@@ -1,0 +1,7 @@
+{
+    "name": "SOP Token",
+    "description": "SOP Token Description", 
+    "decimals": 18,
+    "symbol": "SOP",
+    "logoURI": "https://github.com/PixelPunkNFT/THE-FOOLS/blob/main/src/assets/img/huns-main-new.png"
+}
