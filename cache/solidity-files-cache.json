@@ -1,8 +1,8 @@
 {
   "_format": "hh-sol-cache-2",
   "files": {
-    "C:\\Users\\Gladio\\Desktop\\12 ricomincio dall mattina seguente\\contracts\\Airdrop.sol": {
-      "lastModificationDate": 1735291781604,
+    "C:\\Users\\Gladio\\Desktop\\SOP-Token-presale-staking-airdrop-admin-connessione-multi-wallet-mobile-ultima\\contracts\\Airdrop.sol": {
+      "lastModificationDate": 1735643967496,
       "contentHash": "216b38d310ce4d2e69b3c87ce0517b0c",
       "sourceName": "contracts/Airdrop.sol",
       "solcConfig": {
@@ -41,8 +41,8 @@
         "Airdrop"
       ]
     },
-    "C:\\Users\\Gladio\\Desktop\\12 ricomincio dall mattina seguente\\contracts\\Staking.sol": {
-      "lastModificationDate": 1735391991182,
+    "C:\\Users\\Gladio\\Desktop\\SOP-Token-presale-staking-airdrop-admin-connessione-multi-wallet-mobile-ultima\\contracts\\Staking.sol": {
+      "lastModificationDate": 1735643967496,
       "contentHash": "50c23505165ad4fd893f152bf15d5abb",
       "sourceName": "contracts/Staking.sol",
       "solcConfig": {
@@ -80,8 +80,8 @@
         "Staking"
       ]
     },
-    "C:\\Users\\Gladio\\Desktop\\12 ricomincio dall mattina seguente\\node_modules\\@openzeppelin\\contracts\\security\\ReentrancyGuard.sol": {
-      "lastModificationDate": 1735385235783,
+    "C:\\Users\\Gladio\\Desktop\\SOP-Token-presale-staking-airdrop-admin-connessione-multi-wallet-mobile-ultima\\node_modules\\@openzeppelin\\contracts\\security\\ReentrancyGuard.sol": {
+      "lastModificationDate": 1735644030329,
       "contentHash": "1535f8c0c68463f8c1b5239f7584e71f",
       "sourceName": "@openzeppelin/contracts/security/ReentrancyGuard.sol",
       "solcConfig": {
@@ -115,8 +115,8 @@
         "ReentrancyGuard"
       ]
     },
-    "C:\\Users\\Gladio\\Desktop\\12 ricomincio dall mattina seguente\\node_modules\\@openzeppelin\\contracts\\access\\Ownable.sol": {
-      "lastModificationDate": 1735385235675,
+    "C:\\Users\\Gladio\\Desktop\\SOP-Token-presale-staking-airdrop-admin-connessione-multi-wallet-mobile-ultima\\node_modules\\@openzeppelin\\contracts\\access\\Ownable.sol": {
+      "lastModificationDate": 1735644030223,
       "contentHash": "5a20b2cad87ddb61c7a3a6af21289e28",
       "sourceName": "@openzeppelin/contracts/access/Ownable.sol",
       "solcConfig": {
@@ -152,8 +152,8 @@
         "Ownable"
       ]
     },
-    "C:\\Users\\Gladio\\Desktop\\12 ricomincio dall mattina seguente\\node_modules\\@openzeppelin\\contracts\\token\\ERC20\\IERC20.sol": {
-      "lastModificationDate": 1735385234984,
+    "C:\\Users\\Gladio\\Desktop\\SOP-Token-presale-staking-airdrop-admin-connessione-multi-wallet-mobile-ultima\\node_modules\\@openzeppelin\\contracts\\token\\ERC20\\IERC20.sol": {
+      "lastModificationDate": 1735644029626,
       "contentHash": "df36f7051335cd1e748b1b6463b7fdd3",
       "sourceName": "@openzeppelin/contracts/token/ERC20/IERC20.sol",
       "solcConfig": {
@@ -187,8 +187,8 @@
         "IERC20"
       ]
     },
-    "C:\\Users\\Gladio\\Desktop\\12 ricomincio dall mattina seguente\\node_modules\\@openzeppelin\\contracts\\utils\\Context.sol": {
-      "lastModificationDate": 1735385232351,
+    "C:\\Users\\Gladio\\Desktop\\SOP-Token-presale-staking-airdrop-admin-connessione-multi-wallet-mobile-ultima\\node_modules\\@openzeppelin\\contracts\\utils\\Context.sol": {
+      "lastModificationDate": 1735644026367,
       "contentHash": "f07feb4a44b1a4872370da5aa70e8e46",
       "sourceName": "@openzeppelin/contracts/utils/Context.sol",
       "solcConfig": {
@@ -222,8 +222,8 @@
         "Context"
       ]
     },
-    "C:\\Users\\Gladio\\Desktop\\12 ricomincio dall mattina seguente\\node_modules\\@openzeppelin\\contracts\\token\\ERC20\\extensions\\IERC20Metadata.sol": {
-      "lastModificationDate": 1735385235016,
+    "C:\\Users\\Gladio\\Desktop\\SOP-Token-presale-staking-airdrop-admin-connessione-multi-wallet-mobile-ultima\\node_modules\\@openzeppelin\\contracts\\token\\ERC20\\extensions\\IERC20Metadata.sol": {
+      "lastModificationDate": 1735644029650,
       "contentHash": "909ab67fc5c25033fe6cd364f8c056f9",
       "sourceName": "@openzeppelin/contracts/token/ERC20/extensions/IERC20Metadata.sol",
       "solcConfig": {
@@ -259,8 +259,8 @@
         "IERC20Metadata"
       ]
     },
-    "C:\\Users\\Gladio\\Desktop\\12 ricomincio dall mattina seguente\\node_modules\\@openzeppelin\\contracts\\token\\ERC20\\ERC20.sol": {
-      "lastModificationDate": 1735385233240,
+    "C:\\Users\\Gladio\\Desktop\\SOP-Token-presale-staking-airdrop-admin-connessione-multi-wallet-mobile-ultima\\node_modules\\@openzeppelin\\contracts\\token\\ERC20\\ERC20.sol": {
+      "lastModificationDate": 1735644028145,
       "contentHash": "3ae5166c6827a9cf1a7a462d1632b464",
       "sourceName": "@openzeppelin/contracts/token/ERC20/ERC20.sol",
       "solcConfig": {
@@ -298,8 +298,8 @@
         "ERC20"
       ]
     },
-    "C:\\Users\\Gladio\\Desktop\\12 ricomincio dall mattina seguente\\contracts\\Token.sol": {
-      "lastModificationDate": 1735392048314,
+    "C:\\Users\\Gladio\\Desktop\\SOP-Token-presale-staking-airdrop-admin-connessione-multi-wallet-mobile-ultima\\contracts\\Token.sol": {
+      "lastModificationDate": 1735643967497,
       "contentHash": "4a16de279a84727b91777f2d4dd1bffe",
       "sourceName": "contracts/Token.sol",
       "solcConfig": {
@@ -336,8 +336,8 @@
         "Token"
       ]
     },
-    "C:\\Users\\Gladio\\Desktop\\12 ricomincio dall mattina seguente\\contracts\\Presale.sol": {
-      "lastModificationDate": 1735392021368,
+    "C:\\Users\\Gladio\\Desktop\\SOP-Token-presale-staking-airdrop-admin-connessione-multi-wallet-mobile-ultima\\contracts\\Presale.sol": {
+      "lastModificationDate": 1735643967496,
       "contentHash": "daf5a8c6fd2e19a07568e4749740c96d",
       "sourceName": "contracts/Presale.sol",
       "solcConfig": {
@@ -378,9 +378,9 @@
         "Presale"
       ]
     },
-    "C:\\Users\\Gladio\\Desktop\\12 ricomincio dall mattina seguente\\node_modules\\@uniswap\\v2-periphery\\contracts\\interfaces\\IUniswapV2Router02.sol": {
-      "lastModificationDate": 1735385613488,
-      "contentHash": "5217e8ba7e863758e4e29ab54573689d",
+    "C:\\Users\\Gladio\\Desktop\\SOP-Token-presale-staking-airdrop-admin-connessione-multi-wallet-mobile-ultima\\node_modules\\@uniswap\\v2-periphery\\contracts\\interfaces\\IUniswapV2Router02.sol": {
+      "lastModificationDate": 1735644025376,
+      "contentHash": "3fd36426274a5b35f7e702f87ba08a8e",
       "sourceName": "@uniswap/v2-periphery/contracts/interfaces/IUniswapV2Router02.sol",
       "solcConfig": {
         "version": "0.8.19",
@@ -415,9 +415,9 @@
         "IUniswapV2Router02"
       ]
     },
-    "C:\\Users\\Gladio\\Desktop\\12 ricomincio dall mattina seguente\\node_modules\\@uniswap\\v2-periphery\\contracts\\interfaces\\IUniswapV2Router01.sol": {
-      "lastModificationDate": 1735385603364,
-      "contentHash": "2bc0167ef68dfe06f920a4aba007f50d",
+    "C:\\Users\\Gladio\\Desktop\\SOP-Token-presale-staking-airdrop-admin-connessione-multi-wallet-mobile-ultima\\node_modules\\@uniswap\\v2-periphery\\contracts\\interfaces\\IUniswapV2Router01.sol": {
+      "lastModificationDate": 1735644025334,
+      "contentHash": "95d8729b2c698dc663322167b3c085fe",
       "sourceName": "@uniswap/v2-periphery/contracts/interfaces/IUniswapV2Router01.sol",
       "solcConfig": {
         "version": "0.8.19",
@@ -450,8 +450,8 @@
         "IUniswapV2Router01"
       ]
     },
-    "C:\\Users\\Gladio\\Desktop\\12 ricomincio dall mattina seguente\\contracts\\Swap.sol": {
-      "lastModificationDate": 1735327910672,
+    "C:\\Users\\Gladio\\Desktop\\SOP-Token-presale-staking-airdrop-admin-connessione-multi-wallet-mobile-ultima\\contracts\\Swap.sol": {
+      "lastModificationDate": 1735643967497,
       "contentHash": "3b34bbd3b3cb7c90e001a64d83f59065",
       "sourceName": "contracts/Swap.sol",
       "solcConfig": {
@@ -489,8 +489,8 @@
         "Swap"
       ]
     },
-    "C:\\Users\\Gladio\\Desktop\\12 ricomincio dall mattina seguente\\contracts\\LiquidityVault.sol": {
-      "lastModificationDate": 1735291781605,
+    "C:\\Users\\Gladio\\Desktop\\SOP-Token-presale-staking-airdrop-admin-connessione-multi-wallet-mobile-ultima\\contracts\\LiquidityVault.sol": {
+      "lastModificationDate": 1735643967496,
       "contentHash": "5c958c969b3aa42cf6c4df756e98a430",
       "sourceName": "contracts/LiquidityVault.sol",
       "solcConfig": {
@@ -527,8 +527,8 @@
         "LiquidityVault"
       ]
     },
-    "C:\\Users\\Gladio\\Desktop\\12 ricomincio dall mattina seguente\\contracts\\mocks\\MockUniswapV2Router02.sol": {
-      "lastModificationDate": 1735291781606,
+    "C:\\Users\\Gladio\\Desktop\\SOP-Token-presale-staking-airdrop-admin-connessione-multi-wallet-mobile-ultima\\contracts\\mocks\\MockUniswapV2Router02.sol": {
+      "lastModificationDate": 1735643967497,
       "contentHash": "ca56067a41dc9573610c2ca97be64147",
       "sourceName": "contracts/mocks/MockUniswapV2Router02.sol",
       "solcConfig": {

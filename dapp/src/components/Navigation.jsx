@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import logo from '../assets/logo.png';
 import { Link } from 'react-router-dom';
 import { ConnectButton } from './WalletConnect';
 import { useAccount, useContractRead } from 'wagmi';
@@ -26,8 +27,12 @@ const Navigation = () => {
       <div className="max-w-6xl mx-auto px-4">
         <div className="flex justify-between items-center h-20">
           {/* Logo */}
-          <div className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-500">
-            SOP
+          <div className="flex items-center gap-2">
+          <img src={logo} alt="SOP Logo" className="h-7 w-auto" />
+            <div className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-500">
+              SOP
+            </div>
+            
           </div>
 
           {/* Desktop Navigation */}
